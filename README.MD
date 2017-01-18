@@ -8,7 +8,18 @@
 Our task is to detect the driving lane on roads using computer vision
 techniques.  Here we will engineer specific features from the raw images,
 extract these features, and use hand-coded algorithms to detect and track
-lanes over time.
+lanes over time
+
+** Solution **
+
+Please see the jupyter notebook Final.ipynb for an live explanation
+with images and videos.   The code can be seen in project.py.  We captured
+a snapshot of our experiments in Experiments.html and our final
+report in Final.html.
+
+If you re-run this, you'll need to have the github repository
+https://github.com/udacity/CarND-Advanced-Lane-Lines in a sister
+directory, accessible by "../CarND-Advanced-Lane-Lines."
 
 **Steps Taken**
 
