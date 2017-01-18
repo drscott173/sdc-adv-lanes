@@ -17,7 +17,7 @@ lanes over time
 **Solution**
 
 Please see the Jupyter notebook Final.ipynb for a live explanation
-of our processing steps with images and videos.   The code can be seen in project.py.  We captured a snapshot of our experiments in Experiments.html and our final report in Final.html.
+of our processing steps with images and videos.   The code can be seen in lanefinder.py.  We captured a snapshot of our experiments in Experiments.html and our final report in Final.html.
 
 If you re-run this, you'll need to have the github repository
 https://github.com/udacity/CarND-Advanced-Lane-Lines in a sister
@@ -40,7 +40,7 @@ on a 2014-generation MacBook Pro running OS/X El Capitan 10.11.6.
 
 We created a Jupyter notebook for experimentation, available as part of 
 this distribution.  The code was procedural and crude as we explored algorithms,
-hyper parameter settings, and more.  Once we found settings and algorithms
+hyperparameter settings, and more.  Once we found settings and algorithms
 that gave adequate performance, we refactored the code into a lanefinder.py
 library and iterated from there.  We evaluated this library on the project and challenge vidoes and published the results on YouTube for sharing.
 
