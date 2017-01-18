@@ -17,8 +17,7 @@ lanes over time
 **Solution**
 
 Please see the Jupyter notebook Final.ipynb for a live explanation
-of our processing steps ith images and videos.   The code can be seen in project.py.  We captured a snapshot of our experiments in Experiments.html and our final
-report in Final.html.
+of our processing steps with images and videos.   The code can be seen in project.py.  We captured a snapshot of our experiments in Experiments.html and our final report in Final.html.
 
 If you re-run this, you'll need to have the github repository
 https://github.com/udacity/CarND-Advanced-Lane-Lines in a sister
