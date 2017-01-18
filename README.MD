@@ -76,7 +76,7 @@ of an image with 8-bit values per pixel.
 4. Remove camera distortion by applying a distortion filter
 
 5. Apply adaptive histogram equalization
-AWE](https://en.wikipedia.org/wiki/Adaptive_histogram_equalization) to improve
+[AWE](https://en.wikipedia.org/wiki/Adaptive_histogram_equalization) to improve
 contrast and accentuate colors of the base image.
 
 6. Create alternative colorspace views of the image in HSV, YUV, and Gray Scale.
