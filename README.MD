@@ -1,7 +1,7 @@
 
 # Project 3: Advanced Lane Finding
 
-** Udacity Self Driving Car NanoDegree Program **
+**Udacity Self Driving Car NanoDegree Program**
 
 **Problem**
 
