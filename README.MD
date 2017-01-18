@@ -3,6 +3,9 @@
 
 **Udacity Self Driving Car NanoDegree Program**
 
+![YouTube Video](https://img.youtube.com/vi/jbkHQcP-rdw/0.jpg)
+You can see our live video [here](https://youtu.be/jbkHQcP-rdw)
+
 **Problem**
 
 Our task is to detect the driving lane on roads using computer vision
@@ -10,11 +13,10 @@ techniques.  Here we will engineer specific features from the raw images,
 extract these features, and use hand-coded algorithms to detect and track
 lanes over time
 
-** Solution **
+**Solution**
 
-Please see the jupyter notebook Final.ipynb for an live explanation
-with images and videos.   The code can be seen in project.py.  We captured
-a snapshot of our experiments in Experiments.html and our final
+Please see the Jupyter notebook Final.ipynb for a live explanation
+of our processing steps ith images and videos.   The code can be seen in project.py.  We captured a snapshot of our experiments in Experiments.html and our final
 report in Final.html.
 
 If you re-run this, you'll need to have the github repository
@@ -81,10 +83,9 @@ contrast and accentuate colors of the base image.
 
 **Apply Filters**
 
-Here's the detail behing "apply filters":
+Here's the detail behind "apply filters":
 
-1. Create an empty binary mask we'll use to collect candidate pixels for the
-lane marker.
+1. Create an empty binary mask for candidate lane marker pixels 
 
 2. Use the HSV (hue, saturation, value/brightness) colorspace to detect
 yellow pixels, mark them in the mask.
