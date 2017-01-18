@@ -221,7 +221,7 @@ class Frame:
 
     def add_yellow_bits(self):
         # Yellow bits are identified through a band-pass filter in the HSV
-        # (hue, saturation, value/brightness) filter.
+        # (hue, saturation, value/brightness) space.
         lower  = np.array([ 0, 80, 200])
         upper = np.array([ 40, 255, 255])
         yellows = np.array(cv2.inRange(self.hsv, lower, upper))
@@ -244,7 +244,7 @@ class Frame:
 
     def add_sobel_bits(self):
         # From class and experimentation, we found that the green plane in
-        # an rgb image, and the gray image are good candiates for finding
+        # an rgb image, and the gray image are good candidates for finding
         # edges.
         green = self.abs_sobel_thresh(self.rgb[:,:,1])
         shadows = self.abs_sobel_thresh(self.gray, thresh_min=10, thresh_max=64)
@@ -275,7 +275,7 @@ class Frame:
 ## Line
 ## A "line" represents the left or right lane marker on the road.  We
 ## feed instances successive polynomials that were fit to pixel data
-## taken from the road image.  We call these a polynomial a "fit."  The
+## taken from the road image.  We call these polynomials a "fit."  The
 ## lane class examines these, determines if they're junk, and keeps the
 ## good ones around.  The class computes a moving average of the last N
 ## fits as the lane polynomial, also storing the curvature computed closest
@@ -391,7 +391,7 @@ class Line:
         self.update_history(new_fit, weak)
 #
 ## LaneBoundaries
-## A simple data structure for holdig the starting (lo) and 
+## A simple data structure for holding the starting (lo) and 
 ## ending (hi) pixels for the left (l) and right (r) lanes.
 #
 
