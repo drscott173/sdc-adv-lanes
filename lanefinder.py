@@ -102,13 +102,13 @@ class Globals:
 
     def smooth(self, x, window_len=32):
         # We apply a 32x32 hanning filter to smooth our noisy 1-D
-        # histogram of pixel intensify.  This helps find peaks for lanes.
+        # histogram of pixel intensity.  This helps find peaks for lanes.
         w = np.hanning(window_len)
         s = np.r_[x[window_len-1:0:-1],x,x[-1:-window_len:-1]]
         return np.convolve(w/w.sum(),s,mode='valid')
 
     def anneal(self, img1, img2):
-        # average the values of two images.  I find that when I drive
+        # Average/lerp the values of two images.  I find that when I drive
         # my brain hits steady state and lines blur into a stream of bits
         # on the left and right.  My eye fills in the rest.  We repeat that
         # here by blending the last 10-20 images together.

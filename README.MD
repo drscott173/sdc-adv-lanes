@@ -12,7 +12,7 @@ You can see our live video [here](https://youtu.be/jbkHQcP-rdw)
 Our task is to detect the driving lane on roads using computer vision
 techniques.  Here we will engineer specific features from the raw images,
 extract these features, and use hand-coded algorithms to detect and track
-lanes over time
+lanes over time.
 
 **Solution**
 
